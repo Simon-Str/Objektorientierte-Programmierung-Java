@@ -9,11 +9,10 @@ package de.stromberg.oop.uebung06;
 import java.util.ArrayList;
 
 public class ListImpl1 implements ListInterface2 {
-    ArrayList <Integer> list;
+    ArrayList <Integer> list = new ArrayList <Integer>;
 
     public ListImpl1 ()
     {
-        list= new ArrayList <Integer>;
     }
 
     @Override
